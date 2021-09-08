@@ -6,7 +6,7 @@ const Pokedex = (props) => {
         <div className="Pokedex">
             <div className="Pokedex-cards">
                 {props.pokemon.map(p => (
-                    <PokeCard id={p.id} name={p.name} type={p.type} base_experience = {p.base_experience}/>
+                    <PokeCard key={p.id} id={p.id} name={p.name} type={p.type} base_experience = {p.base_experience}/>
                 ))}
             </div>
 

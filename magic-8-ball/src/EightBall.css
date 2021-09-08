@@ -1,0 +1,46 @@
+
+.EightBall {
+    border-radius: 50%;
+    background-color: gray;
+    height: 30rem;
+    width: 30rem; 
+    position: fixed ;
+    top: 15%; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.EightBall-message {
+    margin-top: 40%; 
+    margin-left: 40%; 
+    
+
+    width: 100px;
+  height: 57.735px;
+  background: black;
+  position: relative;
+  transform: scale(2);
+}
+
+.EightBall-message::before {
+    content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid black;
+}
+.EightBall-message::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid black;
+}
