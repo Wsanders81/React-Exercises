@@ -1,0 +1,18 @@
+
+form {
+    margin-top: 3rem; 
+}
+
+label {
+    margin-left: 1rem; 
+}
+
+input {
+    text-align: center;
+}
+
+.NewBoxForm button {
+    margin-top: 1rem; 
+    border-radius: 5px;
+    
+}

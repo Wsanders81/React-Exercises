@@ -1,0 +1,17 @@
+
+.Todo button {
+    position: absolute; 
+    right: 0; 
+    margin-right: 1rem ;
+    border-radius: 5px;
+}
+
+.Todo {
+    position: relative; 
+    margin: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    width: 50%; 
+    border: 1px solid black;
+    border-radius: 4px; 
+}
