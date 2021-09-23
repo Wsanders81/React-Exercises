@@ -1,0 +1,24 @@
+
+.Navbar {
+    background-color: darkslateblue; 
+    height: 4rem; 
+    text-align: center; 
+    
+}
+
+.Navbar a {
+    color: rgba(255,255,255,0.7); 
+    margin: 1rem; 
+    text-decoration: none;
+    font-size: 1.5rem; 
+    
+}
+
+.Navbar a.active {
+    color: white; 
+}
+
+.Navbar-link-container {
+    padding-top: 1rem ;
+}
+

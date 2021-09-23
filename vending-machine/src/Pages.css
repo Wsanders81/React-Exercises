@@ -1,0 +1,27 @@
+
+.Main {
+    text-align: center;
+}
+
+.Main img {
+    height: 20rem; 
+    
+}
+
+.Main a {
+    text-decoration: none;
+    background-color: darkslateblue; 
+    padding: 1rem; 
+    color: white; 
+    border-radius: 5px;
+    
+}
+
+.Main a:hover {
+    box-shadow: 4px 9px #888888;
+    transition: box-shadow, 2s;
+}
+
+.Main-link {
+    margin-top: 1rem ;
+}

@@ -1,0 +1,53 @@
+.VendingMachine {
+    
+    background-image: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)),
+    url("http://cdn.cnn.com/cnnnext/dam/assets/171004155619-singapore-vending-machine-chef-in-box-008.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+    
+    text-align: center;
+    margin-top: -2rem; 
+
+    
+}
+
+.VendingMachine::before {
+    background-color: rgba(0,0,0,0.25);
+}
+
+
+.VendingMachine h1{
+    
+    color: white; 
+    font-size: 3rem; 
+    padding-top: 3rem; 
+}
+
+.VendingMachine h3 {
+    color: white; 
+    font-size: 2rem; 
+}
+
+.VendingMachine a {
+    color: rgb(12, 12, 12); 
+    margin: 1rem; 
+    margin-top: 1rem; 
+    text-decoration: none;
+    background-color: rgb(255, 255, 255); 
+    padding: 1rem; 
+    border-radius: 10px;
+    
+    
+}
+
+.link-container {
+    display: flex; 
+    justify-content: center;
+    padding-top: 2rem; 
+}
+
+
+
