@@ -1,0 +1,54 @@
+.ColorsNew {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/steve-johnson-wpw8sHoBtSY-unsplash.jpg');
+	height: 100vh;
+	margin-top: -3rem;
+}
+
+.ColorsNew h1,
+form {
+	padding-top: 10rem;
+}
+
+.ColorsNew h1 {
+	color: wheat;
+	font-size: 4rem;
+}
+
+.ColorsNew form {
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+	width: 25vw;
+}
+
+.ColorsNew input,
+label {
+	text-align: center;
+	margin: auto;
+    margin-bottom: 1rem;
+}
+
+.ColorsNew label{
+    color: white;
+    font-size: 2rem; 
+}
+
+.ColorsNew button {
+    width: 4rem; 
+    margin: auto; 
+    border-radius: 4px;
+    padding: .3rem; 
+}
+
+.ColorsNew-link a{
+    color: white; 
+    text-decoration: none;
+     
+}
+
+.ColorsNew-link {
+    margin-top: 1rem; 
+}
