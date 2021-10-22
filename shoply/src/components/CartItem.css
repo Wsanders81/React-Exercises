@@ -1,0 +1,9 @@
+
+
+.CartItem-image {
+    width: 1rem; 
+    object-fit: contain;
+}
+
+.CartItem-image img {
+}

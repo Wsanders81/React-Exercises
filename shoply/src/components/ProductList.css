@@ -1,0 +1,19 @@
+.ProductList {
+    display: flex; 
+    flex-direction: column; 
+    padding: 2rem; 
+    justify-content: center;
+    width: 15rem; 
+    height: 100%; 
+    margin: auto;  
+    
+}
+
+.ProductList a {
+    text-decoration: none;
+    margin-top: 1rem; 
+}
+
+.ProductList-paper:hover {
+    background-color: beige;
+}

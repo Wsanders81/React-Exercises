@@ -1,0 +1,15 @@
+.Product {
+    padding: 1rem;  
+    width: 50%;
+    
+    margin:auto; 
+    margin-top: 2rem;
+    
+}
+.Product-container {
+    height: 100vh; 
+    margin-top: 5rem; 
+}
+
+
+
