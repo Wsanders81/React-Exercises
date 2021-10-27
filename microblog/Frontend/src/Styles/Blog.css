@@ -1,0 +1,12 @@
+.Blog-button:hover {
+    cursor: pointer;
+}
+
+.Blog-button {
+    margin-right: 1rem; 
+}
+
+.Blog-modal {
+    width: 50%; 
+   margin: auto; 
+}

@@ -1,0 +1,23 @@
+
+.BlogList {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+}
+
+.BlogList-title {
+    width: 40%; 
+    margin: 2rem ; 
+    height: 8rem; 
+}
+
+.BlogList-text {
+    padding: 1rem; 
+      
+}
+
+.BlogList a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgb(42, 134, 165); 
+}
